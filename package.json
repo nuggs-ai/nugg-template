@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"@module-federation/enhanced": "^0.7.3",
+		"@radix-ui/react-slot": "^1.1.1",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
 		"lucide-react": "^0.456.0",
@@ -27,6 +28,7 @@
 		"@types/react-dom": "^18.2.18",
 		"autoprefixer": "^10.4.20",
 		"cross-env": "^7.0.3",
+		"dotenv": "^16.4.7",
 		"postcss": "^8.4.49",
 		"postcss-loader": "^8.1.1",
 		"react-refresh": "^0.14.0",
