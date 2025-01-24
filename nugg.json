@@ -1,0 +1,19 @@
+{
+	"src": "Template",
+	"scope": "nugg_template",
+	"name": "Template",
+	"remote": "https://t-latest-derek-wu-nugg-weather-nugg-weather-nuggs-ai-ze.zephyrcloud.app",
+	"toolCall": {
+		"name": "Counter",
+		"description": "Counts number",
+		"parameters": [
+			{
+				"name": "initialCount",
+				"executeName": "initialCount",
+				"description": "Initial count of the counter",
+				"type": "string",
+				"required": true
+			}
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"src": "Weather",
+	"scope": "nugg_weather",
+	"name": "Weather",
+	"remote": "https://t-latest-derek-wu-nugg-weather-nugg-weather-nuggs-ai-ze.zephyrcloud.app",
+	"toolCall": {
+		"name": "displayWeatherNugg",
+		"description": "Display the weather for a city",
+		"parameters": [
+			{
+				"name": "city",
+				"executeName": "initialCity",
+				"description": "The city to display the weather for",
+				"type": "string",
+				"required": true
+			}
+		]
+	}
+}

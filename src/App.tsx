@@ -1,9 +1,5 @@
 import Counter from "@/nugg/Template";
 
-const nuggConfig = require('../nugg.config.js');
-
-console.log(nuggConfig);
-
 function App() {
 	return (
 		<div>

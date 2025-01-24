@@ -7,9 +7,7 @@ import wrapSelector from './src/lib/wrapselector';
 
 const isDev = process.env.NODE_ENV === 'development';
 const path = require('path');
-const nuggConfig = require('./nugg.config.js');
-
-console.log('nuggConfig: nuggConfig');
+const nuggConfig = require('./nugg.json');
 
 // Target browsers, see: https://github.com/browserslist/browserslist
 const targets = ['chrome >= 87', 'edge >= 88', 'firefox >= 78', 'safari >= 14'];

@@ -24,7 +24,7 @@
 	"include": [
 		"**/*.ts",
 		"**/*.tsx",
-		"nugg.config.js",
+		"nugg.config.ts",
 	],
 	"ts-node": {
 		"compilerOptions": {
