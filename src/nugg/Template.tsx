@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { TemplateSkeleton } from './Skeleton';
-import './styles.css'
+import '@/nugg/config/styles.css'
 
 export default function Counter({ initialCount = 0 }: { initialCount: number }) {
 	const [count, setCount] = useState<number>(initialCount);
